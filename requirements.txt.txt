@@ -1,0 +1,9 @@
+# Dependencias de Umbralyx X
+PySide6
+yt-dlp
+ffmpeg
+ffprobe
+
+# Nota:
+# Para convertir audio a MP3 es necesario tener ffmpeg instalado.
+# Descarga: https://ffmpeg.org/download.html

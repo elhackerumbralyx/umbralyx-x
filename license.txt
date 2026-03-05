@@ -1,0 +1,19 @@
+Licencia de Uso de Umbralyx X
+
+Copyright (c) 2026 David Calero Andrinal
+
+Todos los derechos reservados.
+
+Se concede permiso para descargar e instalar el software Umbralyx X únicamente para uso personal.
+
+No está permitido:
+
+- Modificar el software.
+- Descompilar o realizar ingeniería inversa del software.
+- Redistribuir el software por cualquier medio.
+- Vender, alquilar o sublicenciar el software.
+- Incluir el software en otros proyectos o aplicaciones.
+
+Este software se proporciona "tal cual", sin garantías de ningún tipo. El autor no se hace responsable de ningún daño directo o indirecto derivado del uso del software.
+
+Al descargar, instalar o utilizar este software, el usuario acepta estas condiciones.

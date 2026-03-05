@@ -1,0 +1,28 @@
+[Setup]
+AppName=Umbralyx X
+AppVersion=1.0
+DefaultDirName={autopf}\Umbralyx X
+DefaultGroupName=Umbralyx X
+OutputDir=.
+OutputBaseFilename=Instalar_Umbralyx_X
+Compression=lzma
+SolidCompression=yes
+SetupIconFile=logo.ico
+WizardStyle=modern
+
+[Languages]
+Name: "spanish"; MessagesFile: "compiler:Languages\Spanish.isl"
+
+[Files]
+Source: "Umbralyx X.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "estilo_oscuro.qss"; DestDir: "{app}"; Flags: ignoreversion
+
+[Tasks]
+Name: "desktopicon"; Description: "Crear acceso directo en el escritorio"; GroupDescription: "Opciones adicionales:"; Flags: unchecked
+
+[Icons]
+Name: "{group}\Umbralyx X"; Filename: "{app}\Umbralyx X.exe"
+Name: "{commondesktop}\Umbralyx X"; Filename: "{app}\Umbralyx X.exe"; Tasks: desktopicon
+
+[Run]
+Filename: "{app}\Umbralyx X.exe"; Description: "Ejecutar Umbralyx X"; Flags: nowait postinstall skipifsilent
